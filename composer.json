@@ -1,0 +1,26 @@
+{
+    "name": "hady/contact",
+    "description": "This package is to send email to admin and save contact query in database",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "hadymaher",
+            "email": "hadymaher311@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "hady\\Contact\\" : "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "hady\\Contact\\ContactServiceProvider"
+            ]
+        }
+    }
+}
